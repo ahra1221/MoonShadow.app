@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Mypage">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="131dp"
+        android:layout_height="123dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/girl" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="눈송이" />
+
+    <TextView
+        android:id="@+id/tv_name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="snowsong@sookmyung.ac.kr" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <Button
+            android:id="@+id/btn_move"
+            android:layout_width="147dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:drawableTop="@drawable/img1"
+            android:text="생리 정보"
+            android:textColor="#040303"
+            app:backgroundTint="#FDF9F9" />
+
+        <Button
+            android:id="@+id/btn_move2"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/img2"
+            android:text="후기 관리"
+            android:textColor="#171616"
+            app:backgroundTint="#FFFBFB"
+            app:iconTint="#171616" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+
+        <Button
+            android:id="@+id/btn_move3"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/img4"
+            android:text="나의 순위표"
+            android:textColor="#040303"
+            app:backgroundTint="#FDF9F9" />
+
+        <Button
+            android:id="@+id/btn_move4"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/img3"
+            android:text="개발자 정보"
+            android:textColor="#040303"
+            app:backgroundTint="#FDF9F9" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="알람 설정"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mypage_to_main"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FDF9F9"
+            android:drawableTop="@drawable/main_img" />
+
+        <Button
+            android:id="@+id/main_to_mypage"
+            android:layout_width="205dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#FDF9F9"
+            android:drawableTop="@drawable/user_img" />
+
+    </LinearLayout>
+
+</LinearLayout>
